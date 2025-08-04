@@ -2,7 +2,7 @@
 
 This repository contains my work, notes, and solutions from the **ITI Summer Code Camp 2025**, held in Port Said, Egypt. The track focuses on full-stack web development using **Python** and modern client-side technologies.
 
-![Course Poster](./assets/summer-code-camp-2025.png)
+![Course Poster](./assets/summer-code-camp-2025.jpg)
 
 ## 📚 Course Details
 
@@ -10,7 +10,6 @@ This repository contains my work, notes, and solutions from the **ITI Summer Cod
 - **Mode:** Online
 - **Duration:** July 2025
 - **Total Hours:** 120
-- **Level:** Undergraduate students
 
 ### 📌 Curriculum Breakdown
 
@@ -22,6 +21,15 @@ This repository contains my work, notes, and solutions from the **ITI Summer Cod
 | PostgreSQL Database                      | 18 H  |
 
 ---
+## 📅 Course Tracker
 
-## 📁 Repository Structure
+🔗 [📝 ITI Summer Code Camp Task Tracker (Google Sheet)](https://docs.google.com/spreadsheets/d/1p48ETcN9bU6TGTF9KrZPx9M9-9bLXuqV/edit?gid=999122997#gid=999122997)
 
+
+---
+## 💻 Getting Started
+
+To explore the content:
+
+```bash
+git clone https://github.com/your-username/iti-fullstack-course.git
