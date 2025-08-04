@@ -10,7 +10,6 @@ This repository contains my work, notes, and solutions from the **ITI Summer Cod
 - **Mode:** Online
 - **Duration:** July 2025
 - **Total Hours:** 120
-- **Level:** Undergraduate students
 
 ### 📌 Curriculum Breakdown
 
