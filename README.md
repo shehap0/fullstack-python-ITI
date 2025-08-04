@@ -2,7 +2,7 @@
 
 This repository contains my work, notes, and solutions from the **ITI Summer Code Camp 2025**, held in Port Said, Egypt. The track focuses on full-stack web development using **Python** and modern client-side technologies.
 
-![Course Poster](assets/summer-code-camp-2025.png)
+![Course Poster](./assets/summer-code-camp-2025.jpg)
 
 ## 📚 Course Details
 
