@@ -27,9 +27,51 @@ This repository contains my work, notes, and solutions from the **ITI Summer Cod
 
 
 ---
+## ⚙️ Installation Guide
+
+To run and explore the projects in this repository, follow these setup steps:
+
+### 1. 🐍 Python & Virtual Environment
+
+Make sure Python 3.8+ is installed.
+
+```bash
+# Check Python version
+python --version
+
+# Create virtual environment
+python -m venv env
+
+# Activate the environment
+# On Windows:
+env\Scripts\activate
+# On macOS/Linux:
+source env/bin/activate
+```
+
+
+### 2. 📦 Install Django & Flask
+
+```bash
+# Upgrade pip
+pip install --upgrade pip
+
+# Install Django
+pip install django
+
+# Install Flask
+pip install flask
+```
+---
+###3. 🟨 Install Node.js and npm
+
+Download and install Node.js from: https://nodejs.org
+```bash
+#Then check installation:
+node -v
+npm -v
+```
+---
 ## 💻 Getting Started
-
-To explore the content:
-
 ```bash
 git clone https://github.com/your-username/iti-fullstack-course.git
