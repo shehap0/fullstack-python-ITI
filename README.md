@@ -23,5 +23,9 @@ This repository contains my work, notes, and solutions from the **ITI Summer Cod
 
 ---
 
-## 📁 Repository Structure
+## 💻 Getting Started
 
+To explore the content:
+
+```bash
+git clone https://github.com/your-username/iti-fullstack-course.git
