@@ -63,7 +63,7 @@ pip install django
 pip install flask
 ```
 ---
-###3. 🟨 Install Node.js and npm
+### 3. 🟨 Install Node.js and npm
 
 Download and install Node.js from: https://nodejs.org
 ```bash
