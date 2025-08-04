@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 -JS / DOMManipulation</title>
+</head>
+<style>
+    #mydiv {
+        background-color: aquamarine;
+    }
+
+    .bg {
+        background-color: blueviolet;
+    }
+</style>
+
+<body>
+
+
+<img src="img/1.jpg" id="myimg">
+
+    <script>
+
+        // var body = document.body;
+
+        // var h1 = document.createElement("h1")
+        // h1.textContent = "hello form JS"
+        // body.append(h1)
+
+        // var mydiv = document.createElement("div");
+        // var divtext = document.createTextNode("hello div from js")
+        // mydiv.append(divtext);
+
+        // mydiv.style.width = "200px"
+        // mydiv.style.height = "200px"
+        // mydiv.style.color = "red"
+        // mydiv.style.border = "1px solid #000"
+        // //    mydiv.style.backgroundColor="#DDD"
+
+        // //    mydiv.id="mydivid"
+
+        // mydiv.setAttribute("id","mydiv")
+        // // mydiv.setAttribute("class", "mydiv bg")
+
+
+        
+        // mydiv.classList.add("bg")
+        // mydiv.classList.add("bg2")
+        // mydiv.classList.add("active")
+
+        // mydiv.classList.remove("active")
+        // mydiv.classList.replace("bg2","bg3")
+
+        // console.log(mydiv.getAttribute("id"))
+
+        // mydiv.removeAttribute("id")
+
+        // body.append(mydiv);
+        
+        // body.children[1].remove()
+        // body.removeChild(h1)
+        // body.removeChild(mydiv)
+
+        var myimg=document.querySelector("#myimg")
+
+       myimg.style.width="400px"
+
+       myimg.src="./img/2.jpg"
+    </script>
+</body>
+
+</html>

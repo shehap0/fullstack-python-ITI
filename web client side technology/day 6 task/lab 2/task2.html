@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>task 2 lab2 </title>
+</head>
+<body>
+  <h1>enter number of hours: </h1>
+  <input type="text" id="hoursInput">
+  <button onclick="convert()">Convert</button>
+
+  <p id="output"></p>
+
+  <script>
+    function convert() {
+      const hours = document.getElementById("hoursInput").value;
+      const h = Math.floor(hours);
+      const m = h * 60;
+      const s = h * 3600;
+
+      document.getElementById("output").innerHTML =
+        `Hours: ${h}<br>Minutes: ${m}<br>Seconds: ${s}`;
+    }
+  </script>
+  
+</body>
+</html>

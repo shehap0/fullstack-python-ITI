@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 -JS / DomNavigation</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        div {
+            margin: 8px;
+            display: flex;
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        .grand-parent {
+            background-color: darkblue;
+            flex-direction: column;
+        }
+
+        .parent {
+            background-color: gray;
+        }
+
+        .child {
+            background-color: beige;
+            width: 50%;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grand-parent" id="grandParent">
+        <div class="parent" id="parent1">
+            <div class="child"></div>
+            <div class="child"></div>
+        </div>
+        <div class="parent" id="parent2">
+            <div class="child"></div>
+            <div class="child"></div>
+        </div>
+    </div>
+
+    <form action=""></form>
+    <form action=""></form>
+    <form action=""></form>
+
+
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+
+
+    <script>
+        // console.dir(document)
+        //relation
+        // var grandParent = document.body.children[0]
+        // // grandParent.style.backgroundColor="red"
+
+        // var parent1 = grandParent.children[0]
+        // // parent1.style.backgroundColor="green"
+
+        // var cheild12 = parent1.children[1]
+        // cheild12.style.backgroundColor = "yellow"
+        // cheild12.previousElementSibling.style.backgroundColor = "#000"
+
+        // cheild12.parentElement.style.backgroundColor = "blue"
+
+
+        // var child22 = cheild12.parentElement.nextElementSibling.children[1]
+        // child22.style.backgroundColor = "red"
+
+        //using id
+
+        // var parent1=document.getElementById("parent1")
+        // parent1.style.backgroundColor = "red"
+        // parent1.children[0].style.backgroundColor="green"
+
+        // var grandParent=document.getElementById("grandParent")
+        // grandParent.style.backgroundColor="#000"
+
+
+        //using Class
+
+
+        // var childrensss= document.getElementsByClassName("child") //list
+        // for(var i=0;i<childrensss.length;i++){
+        //     childrensss[i].style.backgroundColor="#000"
+        // }
+
+
+        // var parents= document.getElementsByClassName("parent") //list
+        // for(var i=0;i<parents.length;i++){
+        //     parents[i].style.backgroundColor="#333"
+        // }
+
+
+        //using TagName
+
+        // var divs=document.getElementsByTagName("div")
+        //  for(var i=0;i<divs.length;i++){
+        //     divs[i].style.backgroundColor="#333"
+        // }
+
+
+        //new selectors
+//css selectors
+        // document.querySelector   //single element
+        // document.querySelectorAll //list
+
+        // var grandParent=document.querySelector("#grandParent")
+        // grandParent.style.backgroundColor="red"
+
+        // var parent=document.querySelector(".parent")
+        // parent.style.backgroundColor="red"
+
+
+        // var children = document.querySelectorAll(".child")
+        // for (var i = 0; i < children.length; i++) {
+        //     children[i].style.backgroundColor = "#333"
+        // }
+
+
+        // //dom collections
+        // document.forms  //list
+        // document.images //list
+        // document.anchors //list
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+p{
+    color: red;
+}
+
+p, div{
+    font-size: 30px;
+}
+
+#mydiv>p.mainClass{
+    background-color: blueviolet;
+}
+
+div p{
+    color: green;
+    font-weight: bold;
+}
+
+div ~ span{
+    color: rgb(56, 209, 171);
+    font-style: italic;
+}
+
+input[type="text"].myClass{
+    border: 2px solid rgb(159, 33, 155);
+    background-color: #eeeeee;
+}
+
+p.myClass{
+    text-decoration: underline;
+}
+
+div#mydiv{
+    padding: 50px;
+    border: 1px solid black;
+    background-color: #eeeeee;
+}

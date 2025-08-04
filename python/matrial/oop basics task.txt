@@ -1,0 +1,47 @@
+🧩 Task 1 : Create a Car Class
+Objective:
+Build a Car class that represents a car with basic attributes and behaviors using OOP principles.
+
+✅ Requirements:
+1. Attributes:
+brand (e.g., "Toyota")
+
+model (e.g., "Corolla")
+
+year (e.g., 2020)
+
+speed (default: 0)
+
+2. Methods:
+accelerate() – increases speed by 10.
+
+brake() – decreases speed by 10, but not below 0.
+
+display_info() – prints car details and current speed.
+
+
+------------------------------------------------------------------------------------
+
+🧩 Task 2 : Create a Student Class
+Objective:
+Model a student with personal information, track the number of students, and provide a utility function to validate emails.
+✅ Requirements:
+1. Attributes (instance):
+name
+
+email
+
+grade
+
+2. Instance Method:
+get_details() → returns a string like:
+"Name: John, Email: john@example.com, Grade: 90"
+
+3. Class Attribute:
+student_count → tracks how many students have been created.
+
+4. Class Method:
+get_student_count() → returns the total number of students.
+
+5. Static Method:
+is_valid_email(email) → returns True if the email contains "@" and ".", else False.

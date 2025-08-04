@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>day 1 task</title>
+</head>
+<body>
+    <form method="post" action="thank you.html">
+        <table border="5">
+            <caption>contact me firn</caption>
+            <thead>
+                <tr>
+                    <td colspan="3">contact me</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>your name </td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td>your opinion on the website: </td>
+                    <td>    
+                          <input type="radio" name="rating" value="very-good">
+                          very good
+                        <br>
+                          <input type="radio" name="rating" value="good">
+                          good
+                        <br>
+                          <input type="radio" name="rating" value="fair">
+                          fair
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>gender: </td>
+                    <td>
+                        <form>
+                              <input type="radio" name="gender" value="male">
+                              male
+                            <br>
+                              <input type="radio" name="gender" value="female">
+                              female
+                        </form>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Marital status:</td>
+                    <td>
+                        <select>
+                          <option value="single">single</option>
+                          <option value="married">married</option>
+                          <option value="other" selected>other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>You know about my website from</td>
+                    <td>
+                        <select multiple >
+                            <option value="internet">internet</option>
+                            <option value="friend">friend</option>
+                            <option value="search-engine">search Engine</option>
+                            <option value="other">other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>mail: </td>
+                    <td>
+                        <input type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>subject: </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>message: </td>
+                    <td>
+                        <textarea rows="4" cols="50"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>

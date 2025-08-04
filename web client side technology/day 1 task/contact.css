@@ -1,0 +1,10 @@
+table{
+    margin: auto;
+    width: 400px;
+}
+thead, tfoot{
+    text-align: center;
+}
+td{
+    padding: 10px;
+}

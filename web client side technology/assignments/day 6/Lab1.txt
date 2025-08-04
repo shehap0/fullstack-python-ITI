@@ -1,0 +1,9 @@
+1.In parent page Create form to get data from user (name, age, birthday, address)
+And display this data In a other page.
+-----------------------------------------------------------
+2.Create a parent window that opens a flying child window. Hint: Start by creating a parent window that opens a child window.
+ Child window should always be on top view and moves up and down within boundaries of user screen.
+ Parent window should contain a button that stops child window movement.
+--------------------------------------------------
+3. create array of strings (10), and put in it some tips about javascript,
+ and create button “Tip of day”, and when user clicks the button random tip is appear in alert

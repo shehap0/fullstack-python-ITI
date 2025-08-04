@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar ul li {
+    margin: 0 15px;
+}
+
+.nav-bar ul li a {
+
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    display: inline-block;
+}
+.nav-bar ul li a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+#home,#photos,#about,#footer{
+    text-align: center;
+    padding: 20px;
+}
+
+#home,#about{
+    background-color: beige;
+    padding: 50px 20px;
+}
+#photos{
+    background-color: #FFF;
+}
+.photo-galary{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.photo-galary img{
+    width: 150px;
+    height: 150px;
+
+    border: 1px solid lightgray;
+    border-radius: 10%;
+}
+
+#about p{
+    line-height: 150%;
+}
+
+#footer{
+    background-color: #333;
+    color: #FFF;
+}
+
+
+
+

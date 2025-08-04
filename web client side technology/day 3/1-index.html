@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2 Css 1-pseudo </title>
+
+    <style>
+        #mydiv {
+            width: 200px;
+            /* height: 200px; */
+            background-color: royalblue;
+            color: whitesmoke;
+            padding: 5px;
+            margin: 50px auto;
+            text-transform: uppercase;
+            align-items: center;
+        }
+
+        /* pesudo class */
+        #mydiv:hover {
+            background-color: navy;
+        }
+
+        #mydiv:active {
+            background-color: rgb(95, 95, 177);
+        }
+
+
+        /* pesudo Element */
+
+
+        /* #mydiv::after{
+            content: "from after element ";
+            color :red;
+            text-transform: uppercase;
+        } */
+        /* #mydiv::before{
+            content: "from before element ";
+            color :red;
+            text-transform: uppercase;
+        } */
+
+
+        /* #mydiv::first-letter{
+            color: yellow;
+            text-transform: uppercase;
+            font-size: 30px;
+        } */
+
+        /* #mydiv::first-line{
+            color: yellow;
+            text-transform: uppercase;
+            font-size: 30px;
+        } */
+        /* #mydiv::selection {
+            color: yellow;
+            background-color: black;
+        } */
+
+        .requerd::after{
+            content: "*";
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="mydiv">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quia, reprehenderit ipsam id eos blanditiis
+        perferendis cupiditate iusto excepturi pariatur voluptas minus possimus consectetur eius? Nam labore fugit
+        magnam rem.
+    </div>
+    <label for="" class="requerd">Name:</label>
+    <br>
+    <label for="" class="requerd">Password:</label>
+</body>
+
+</html>

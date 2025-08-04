@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6-flex</title>
+
+    <style>
+        .chiled {
+            padding: 10px;
+            width: 200px;
+            height: 100px;
+            margin: 10px;
+            border: 1px solid black;
+            background-color: aquamarine;
+
+        }
+
+        .parent {
+            background-color: royalblue;
+            height: 700px;
+
+            display: flex;
+            /* flex-direction: row; */
+
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+            /* justify-content: end; */
+
+            /* justify-content: baseline; */
+
+            /* align-items: center;
+            justify-content: center; */
+            /* align-items: end; */
+
+            /* flex-wrap: wrap;
+            align-content: flex-start;
+            gap: 100px; */
+
+
+        }
+
+        .chiled-1 {
+            /* align-self: center; */
+                /* flex-grow: 1; */
+                /* flex-shrink: 1; */
+        }
+
+        .chiled-2 {}
+
+        .chiled-3 {
+            /* order: -1; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="chiled chiled-1">this id div1</div>
+        <div class="chiled chiled-2">this is div2</div>
+        <div class="chiled chiled-3">this is div3</div>
+
+        <!-- <div class="chiled chiled-1">this id div1</div>
+        <div class="chiled chiled-2">this is div2</div>
+        <div class="chiled chiled-3">this is div3</div>
+
+        <div class="chiled chiled-1">this id div1</div>
+        <div class="chiled chiled-2">this is div2</div>
+        <div class="chiled chiled-3">this is div3</div> -->
+    </div>
+</body>
+
+</html>

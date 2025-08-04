@@ -1,0 +1,11 @@
+1-DomNavigation
+    1-what is dom
+    2-hirarchy
+    3-Accessing node by all wayes
+    4-dom collections(forms,imgs,ancrs)
+2-DOMManipulation
+    1-create element
+    2-append element
+    3-remove element
+    4-attribute
+    5-classes 

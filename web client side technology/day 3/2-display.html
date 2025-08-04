@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2- Display</title>
+    <style>
+        div {
+            width: 32%;
+            height: 30%;
+            display: inline-block;
+        }
+
+        #div-1 {
+            background-color: red;
+        }
+
+        #div-2 {
+            background-color: green;
+            /* display: none; */
+            visibility: visible;
+        }
+
+        #div-3 {
+            background-color: blue;
+        }
+
+        #span-1 {
+            background-color: blueviolet;
+            width: 100px;
+            height: 100px;
+
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 500px; height: 400px ; background-color: gainsboro;">
+        <div id="div-1">this is child div1</div>
+        <div id="div-2">this is child div2</div>
+        <div id="div-3">this is child div3</div>
+    </div>
+    <span id="span-1">this is span</span>
+</body>
+
+</html>

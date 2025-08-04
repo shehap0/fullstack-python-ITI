@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>final project</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <div class="register">
+        <form>
+            <label>Name</label><p>*max length is 12</p>
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <label>Age</label><p>*the age must be between 18 and 60</p>
+            <input type="number" name="age" placeholder="Enter your age" required>
+            <label>Course</label><p>*to multi select press ctrl</p>
+            <select id="languages" name="languages" multiple size="5">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JS</option>
+                <option value="py">Python</option>
+                <option value="cpp">C++</option>
+                <option value="c">C</option>
+                <option value="java">Java</option>
+                <option value="php">PHP</option>
+            </select>
+            <button type="submit">add</button>
+            <br>
+            <button>Delete</button>
+        </form>
+    </div>
+    
+    <hr>
+    <h1>Table Data</h1>
+    <div class="data">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Course</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+        </table>
+        <button>Delete all</button>
+    </div>
+    <footer>
+        <p>Developed by @shehap here my <a href="https://www.linkedin.com/in/shehap-sherif-7a5a99286/"target="_blank">linkedin</a> and <a href="https://github.com/shehap0" target="_blank">github</a></p>
+    </footer>
+</body>
+</html>

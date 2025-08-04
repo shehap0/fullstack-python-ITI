@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab 2 task 3</title>
+</head>
+<body>
+    <script>
+        let input = prompt("Enter numbers separated by commas:");
+        let numbers = input.split(',').map(Number);
+        let len = numbers.length;
+        let min = Math.min(...numbers);
+        let max = Math.max(...numbers);
+        let avg = numbers.reduce((a, b) => a + b, 0) / len;
+        alert(`Length: ${len}\nMin: ${min}\nMax: ${max}\nAverage: ${avg.toFixed(2)}`);
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>task 3 lab 1</title>
+</head>
+<body>
+  <h1>tip of the day</h1>
+  <button onclick="showtip()">Show Tip</button>
+
+  <script>
+    var tips=[
+      "Embrace Modern JavaScript Features","Write Clean and Readable Code","Handle Errors Gracefully","Master Asynchronous Programming","JavaScript is case-sensitive.","Optimize DOM Manipulation","Utilize Array Methods","Understand Scope and Closures","Stay Updated and Learn Continuously","Implement Best Practices for Performance"]
+
+    function showtip() {
+      var index = Math.floor(Math.random() * tips.length);
+      alert(tips[index]);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+hoisting
+scope
+
+Event
+    mouse Events(onClick,ondblclick,mouseout,mousemove)
+    keybord(onkeydown,onkeyup)
+    others(onfocus,onblur)
+    form(onreset,onsubmit) and select (DDL)
+    this
+    add event lisiner
+    capturing and bubbling (stopPropagation)
+    event delegation

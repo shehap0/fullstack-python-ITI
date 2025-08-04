@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5- zindex</title>
+
+    <style>
+        .chiled {
+            padding: 10px;
+            width: 200px;
+            height: 200px;
+
+            position: fixed;
+        }
+
+        .chiled1 {
+            background-color: red;
+            z-index: 4;
+        }
+
+        .chiled2 {
+            background-color: green;
+            z-index: 2;
+            top: 50px;
+            left: 50px;
+        }
+
+        .chiled3 {
+            background-color: orange;
+            z-index: 1;
+            top: 100px;
+            left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="chiled chiled1">this is div1</div>
+    <div class="chiled chiled2">this is div2</div>
+    <div class="chiled chiled3">this is div3</div>
+
+</body>
+
+</html>

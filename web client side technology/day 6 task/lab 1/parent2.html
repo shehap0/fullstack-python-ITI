@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>task 2 lab 2
+  </title>
+</head>
+<body>
+  <button onclick="startFlying()">open flying window</button>
+  <button onclick="stopFlying()">stop</button>
+
+  <script>
+    let child, interval;
+    let y = 0;
+
+    function startFlying() {
+      child = open("child2.html", "_blank", "width=300,height=150");
+
+      interval = setInterval(() => {
+        if (child?.closed) return;
+
+        y += 5;
+        child.moveTo(0, y);
+      },100);
+    }
+
+    function stopFlying(){clearInterval(interval);}
+  </script>
+  
+</body>
+</html>
