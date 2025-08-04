@@ -21,7 +21,12 @@ This repository contains my work, notes, and solutions from the **ITI Summer Cod
 | PostgreSQL Database                      | 18 H  |
 
 ---
+## 📅 Course Tracker
 
+🔗 [📝 ITI Summer Code Camp Task Tracker (Google Sheet)](https://docs.google.com/spreadsheets/d/1p48ETcN9bU6TGTF9KrZPx9M9-9bLXuqV/edit?gid=999122997#gid=999122997)
+
+
+---
 ## 💻 Getting Started
 
 To explore the content:
