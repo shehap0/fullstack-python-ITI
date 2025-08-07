@@ -1,9 +1,9 @@
 class Person:
-    def __init__(self, name, money, mood, healthRate):
+    def __init__(self, name, money, mood, healthrate):
         self.name = name
         self.money = money
         self.mood = mood
-        self.healthRate = min(max(healthRate, 0), 100) 
+        self.healthrate = min(max(healthrate, 0), 100) 
 
     def sleep(self, hours):
         if hours==7:
@@ -15,11 +15,11 @@ class Person:
 
     def eat(self,meals):
         if meals==3:
-            self.healthRate=100
+            self.healthrate=100
         elif meals==2:
-            self.healthRate=75
+            self.healthrate=75
         elif meals==1:
-            self.healthRate=50
+            self.healthrate=50
 
     def buy(self, items):
         self.money-=items*10
@@ -27,8 +27,8 @@ class Person:
         
 
 class Employee(Person):
-    def __init__(self, name, money , mood, healthRate, id, car , email, salary, distanceToWork):
-        super().__init__(name, money, mood, healthRate)
+    def __init__(self, name, money , mood, healthrate , id , car , email , salary , distanceToWork):
+        super().__init__(name, money, mood, healthrate)
         self.id =id
         self.car=car
         self.email= email
@@ -87,10 +87,10 @@ class Car:
 
     def run(self, speed, distance):
         self.speed = speed
-        fuel_needed = distance / 10
-        max_distance = self.fuelRate * 10
+        fuel_needed = distance/10
+        max_distance = self.fuelRate*10
 
-        if fuel_needed <= self.fuelRate:
+        if fuel_needed<=self.fuelRate:
             self.fuelRate-=fuel_needed
             self.stop(0)
         else:
@@ -113,8 +113,8 @@ class Car:
 
 
 if __name__ == "__main__":
-    my_car = Car("byd" , 5 , 60)
-    emp = Employee("Shehap" , 999 , "normal" , 80 , 69 , my_car , "shehap@gmail.lol", 50000, 100)
+    my_car=Car("byd" , 5 , 60)
+    emp = Employee("Shehap" , 999 , "sad" , 80 , 69 , my_car , "shehap@gmail.lol", 50000, 100)
 
     emp.sleep(9)
     emp.eat(3)

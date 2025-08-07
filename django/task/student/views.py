@@ -1,7 +1,21 @@
+import psycopg2
 from django.shortcuts import render
 
-# Create your views here.
-
 def student_list(request):
-    students = [{'id': 1, 'name': 'shehap', 'gpa': 3.7},{'id': 2, 'name': 'shalaby', 'gpa': 3.4},{'id': 3, 'name': 'sonic', 'gpa': 3.9},]
+    conn = psycopg2.connect(
+    dbname="student",  # <-- your new DB name
+    user="postgres",         # <-- most common default username is "postgres"
+    password="123123",       # <-- your password
+    host="localhost",
+    port="5432"
+)
+
+    with conn.cursor() as cur:
+        cur.execute("SELECT id, name, gpa FROM student")
+        rows = cur.fetchall()
+
+    conn.close()
+
+    students = [{'id': row[0], 'name': row[1], 'gpa': row[2]} for row in rows]
+
     return render(request, 'student/index.html', {'students': students})

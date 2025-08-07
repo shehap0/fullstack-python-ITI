@@ -1,0 +1,2 @@
+use postgres sql and library psycopg2 and link the database to the table we did in last task
+and when you go to the admin page the student should be here and be able to add and delete students

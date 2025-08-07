@@ -1,0 +1,3 @@
+task of today is to use django
+make a dictionary in python file then show it in table in html
+table for student with id, name and gpa
